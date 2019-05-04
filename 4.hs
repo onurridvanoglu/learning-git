@@ -26,6 +26,9 @@ monoidLeftIdentity a = mappend a mempty == a
 monoidRightIdentity :: (Eq a, Monoid a) => a -> Bool
 monoidRightIdentity a = mappend mempty a == a 
 
+x = 2 + 2
+
+
 type ThreeStr = Three String String String
 type SemiAssoc = ThreeStr -> ThreeStr -> ThreeStr -> Bool
 
