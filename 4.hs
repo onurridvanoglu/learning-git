@@ -28,6 +28,8 @@ monoidRightIdentity a = mappend mempty a == a
 
 x = 2 + 2
 
+y = 3 * 4
+
 
 type ThreeStr = Three String String String
 type SemiAssoc = ThreeStr -> ThreeStr -> ThreeStr -> Bool
